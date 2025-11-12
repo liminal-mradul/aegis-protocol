@@ -1,0 +1,29 @@
+environment: production
+
+node_count: 5
+base_port: 8000
+
+database:
+  host: ${DATABASE_HOST}
+  port: ${DATABASE_PORT}
+  username: ${DATABASE_USER}
+  password: ${DATABASE_PASSWORD}
+  database: aegis_production
+  pool_size: 20
+
+security:
+  enable_mtls: true
+  enable_audit: true
+  require_2fa: true
+  session_timeout: 1800
+
+monitoring:
+  enable_prometheus: true
+  enable_grafana: true
+  metrics_port: 9090
+  scrape_interval: 15
+
+performance:
+  target_cpu: 80.0
+  target_latency: 50.0
+  max_memory: 90.0

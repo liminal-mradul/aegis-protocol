@@ -1,0 +1,27 @@
+environment: development
+
+node_count: 2
+base_port: 8000
+
+database:
+  host: localhost
+  port: 5432
+  username: aegis_dev
+  password: dev_password
+  database: aegis_development
+
+security:
+  enable_mtls: false
+  enable_audit: true
+  require_2fa: false
+
+monitoring:
+  enable_prometheus: true
+  enable_grafana: false
+  metrics_port: 9090
+  scrape_interval: 60
+
+performance:
+  target_cpu: 90.0
+  target_latency: 200.0
+  max_memory: 95.0

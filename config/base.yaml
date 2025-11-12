@@ -1,0 +1,40 @@
+environment: development
+
+node_count: 3
+base_port: 8000
+max_nodes: 50
+min_nodes: 3
+
+database:
+  host: localhost
+  port: 5432
+  username: aegis
+  password: ""
+  database: aegis
+  pool_size: 10
+  timeout: 30
+
+security:
+  enable_mtls: true
+  enable_audit: true
+  require_2fa: false
+  session_timeout: 3600
+  max_login_attempts: 5
+
+monitoring:
+  enable_prometheus: true
+  enable_grafana: true
+  metrics_port: 9090
+  scrape_interval: 30
+
+performance:
+  target_cpu: 70.0
+  target_latency: 100.0
+  max_memory: 85.0
+  scaling_cooldown: 300
+
+network:
+  grpc_timeout: 30
+  max_retries: 3
+  heartbeat_interval: 30
+  discovery_interval: 60
