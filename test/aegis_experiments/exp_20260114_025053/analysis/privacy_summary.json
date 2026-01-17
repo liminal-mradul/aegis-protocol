@@ -1,0 +1,56 @@
+{
+  "Laplace": {
+    "epsilon_0.1": {
+      "mean_noise": 10.119118261718263,
+      "std_noise": 12.185021016013422,
+      "mean_relative_error": 0.10119118261718257
+    },
+    "epsilon_0.5": {
+      "mean_noise": 1.8922480336766065,
+      "std_noise": 2.010139179989863,
+      "mean_relative_error": 0.01892248033676602
+    },
+    "epsilon_1.0": {
+      "mean_noise": 0.9732182294113106,
+      "std_noise": 0.8730909593890611,
+      "mean_relative_error": 0.009732182294113054
+    },
+    "epsilon_5.0": {
+      "mean_noise": 0.20719161935367394,
+      "std_noise": 0.22198508725698957,
+      "mean_relative_error": 0.00207191619353669
+    },
+    "epsilon_10.0": {
+      "mean_noise": 0.09007735763397907,
+      "std_noise": 0.0867347335121451,
+      "mean_relative_error": 0.0009007735763397513
+    }
+  },
+  "Gaussian": {
+    "epsilon_0.1": {
+      "mean_noise": 40.395798118046734,
+      "std_noise": 33.48785284268724,
+      "mean_relative_error": 0.40395798118046733
+    },
+    "epsilon_0.5": {
+      "mean_noise": 9.106867906751052,
+      "std_noise": 6.363192663729335,
+      "mean_relative_error": 0.09106867906751046
+    },
+    "epsilon_1.0": {
+      "mean_noise": 4.183594504245904,
+      "std_noise": 3.068087006794368,
+      "mean_relative_error": 0.041835945042459
+    },
+    "epsilon_5.0": {
+      "mean_noise": 0.8356158720985266,
+      "std_noise": 0.6713973290980291,
+      "mean_relative_error": 0.008356158720985215
+    },
+    "epsilon_10.0": {
+      "mean_noise": 0.39844850360371636,
+      "std_noise": 0.2786401313453117,
+      "mean_relative_error": 0.003984485036037112
+    }
+  }
+}

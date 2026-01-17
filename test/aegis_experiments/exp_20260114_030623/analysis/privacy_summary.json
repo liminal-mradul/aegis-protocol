@@ -1,0 +1,96 @@
+{
+  "Laplace": {
+    "epsilon_0.01": {
+      "mean_noise": 97.77229423734676,
+      "std_noise": 96.7085962449169,
+      "mean_relative_error": 0.9777229423734671
+    },
+    "epsilon_0.05": {
+      "mean_noise": 20.029987532590113,
+      "std_noise": 17.793524483893354,
+      "mean_relative_error": 0.2002998753259011
+    },
+    "epsilon_0.1": {
+      "mean_noise": 9.059139940514113,
+      "std_noise": 9.328141812235513,
+      "mean_relative_error": 0.0905913994051411
+    },
+    "epsilon_0.5": {
+      "mean_noise": 2.3765847507568223,
+      "std_noise": 2.319401906873552,
+      "mean_relative_error": 0.023765847507568175
+    },
+    "epsilon_1.0": {
+      "mean_noise": 0.8422356707990366,
+      "std_noise": 0.9508414362922376,
+      "mean_relative_error": 0.008422356707990322
+    },
+    "epsilon_2.0": {
+      "mean_noise": 0.4810158427092426,
+      "std_noise": 0.44492721060462537,
+      "mean_relative_error": 0.004810158427092374
+    },
+    "epsilon_5.0": {
+      "mean_noise": 0.19656281502475573,
+      "std_noise": 0.16077498234775103,
+      "mean_relative_error": 0.0019656281502475107
+    },
+    "epsilon_10.0": {
+      "mean_noise": 0.09882196189305237,
+      "std_noise": 0.08808709418974196,
+      "mean_relative_error": 0.0009882196189304805
+    },
+    "epsilon_20.0": {
+      "mean_noise": 0.04696625635099564,
+      "std_noise": 0.048104671907865125,
+      "mean_relative_error": 0.00046966256350991476
+    }
+  },
+  "Gaussian": {
+    "epsilon_0.01": {
+      "mean_noise": 359.3840762154098,
+      "std_noise": 299.32398153693686,
+      "mean_relative_error": 3.5938407621540973
+    },
+    "epsilon_0.05": {
+      "mean_noise": 74.80447946796602,
+      "std_noise": 59.98854400078539,
+      "mean_relative_error": 0.74804479467966
+    },
+    "epsilon_0.1": {
+      "mean_noise": 45.45205125883835,
+      "std_noise": 30.50801061013314,
+      "mean_relative_error": 0.4545205125883834
+    },
+    "epsilon_0.5": {
+      "mean_noise": 9.109650108497162,
+      "std_noise": 6.608169364935043,
+      "mean_relative_error": 0.09109650108497157
+    },
+    "epsilon_1.0": {
+      "mean_noise": 3.655058502699851,
+      "std_noise": 3.0003891772964297,
+      "mean_relative_error": 0.036550585026998476
+    },
+    "epsilon_2.0": {
+      "mean_noise": 2.1905814512994337,
+      "std_noise": 1.6517190405747004,
+      "mean_relative_error": 0.021905814512994285
+    },
+    "epsilon_5.0": {
+      "mean_noise": 0.8566463111086213,
+      "std_noise": 0.6203337537803656,
+      "mean_relative_error": 0.008566463111086166
+    },
+    "epsilon_10.0": {
+      "mean_noise": 0.3174650644843289,
+      "std_noise": 0.25474799285217603,
+      "mean_relative_error": 0.0031746506448432415
+    },
+    "epsilon_20.0": {
+      "mean_noise": 0.23582707200756858,
+      "std_noise": 0.17216770746455184,
+      "mean_relative_error": 0.002358270720075636
+    }
+  }
+}

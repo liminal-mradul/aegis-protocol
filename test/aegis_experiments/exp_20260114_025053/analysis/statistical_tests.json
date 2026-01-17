@@ -1,0 +1,22 @@
+{
+  "byzantine_latency_impact": {
+    "t_statistic": -2.2204610188543574,
+    "p_value": 0.026698902459791774,
+    "significant": true,
+    "interpretation": "Byzantine nodes significantly increase latency"
+  },
+  "mechanism_comparison_eps_1.0": {
+    "t_statistic": -10.064199025125093,
+    "p_value": 1.6640862157691853e-19,
+    "laplace_mean": 0.9732182294113106,
+    "gaussian_mean": 4.183594504245904,
+    "significant": true
+  },
+  "mechanism_comparison_eps_5.0": {
+    "t_statistic": -8.886801109423399,
+    "p_value": 3.876592621167342e-16,
+    "laplace_mean": 0.20719161935367394,
+    "gaussian_mean": 0.8356158720985266,
+    "significant": true
+  }
+}

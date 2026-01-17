@@ -1,0 +1,5 @@
+{
+  "byzantine_latency_impact": {
+    "t_statistic": -2.717853251432409,
+    "p_value": 0.00673232645664238,
+    "significant": 

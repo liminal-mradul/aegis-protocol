@@ -1,0 +1,12 @@
+{
+  "dimension_scaling": {
+    "d=100": 74.4828184243488,
+    "d=1000": 84.90820487477322
+  },
+  "dropout_tolerance": {
+    "dropout=0.0": 100.0,
+    "dropout=0.1": 100.0,
+    "dropout=0.2": 100.0,
+    "dropout=0.3": 100.0
+  }
+}
